@@ -40,6 +40,7 @@ module.exports = {
     publicPath: '/build/',
     contentBase: './src',
   },
+  // ------------------- Size Limits ------------------------------
   performance: {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000,
