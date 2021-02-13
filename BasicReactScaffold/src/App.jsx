@@ -1,6 +1,10 @@
 import React from 'react';
 import './styles/style.scss';
 
+/* Main app component renders an H1 tag that changes value from 'development' to 'production'
+ depending on environment
+*/
+
 const App = () => {
   return (
     <div className='main-container'>
